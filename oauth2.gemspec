@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.executables = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files = `git ls-files`.split("\n")
   gem.homepage = 'http://github.com/intridea/oauth2'
-  gem.name = 'oauth2'
+  gem.name = 'panjiva-oauth2'
   gem.require_paths = ['lib']
   gem.required_rubygems_version = Gem::Requirement.new('>= 1.3.6')
   gem.summary = %q{A Ruby wrapper for the OAuth 2.0 protocol.}
