@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'yard', '~> 0.7'
   gem.add_development_dependency 'ZenTest', '~> 4.5'
   gem.add_development_dependency 'multi_xml'
-  gem.add_runtime_dependency 'faraday', '>= 0.6.1'
+  gem.add_runtime_dependency 'faraday', ['>= 0.6.1', '< 0.10']
   gem.add_runtime_dependency 'multi_json', '~> 1.0'
   gem.authors = ["Michael Bleigh", "Erik Michaels-Ober"]
   gem.description = %q{A Ruby wrapper for the OAuth 2.0 protocol built with a similar style to the original OAuth gem.}
